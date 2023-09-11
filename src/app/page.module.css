@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  background: radial-gradient(circle, #53c28b, #194c33, #111, #111);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 72px;
+  background: linear-gradient(to bottom, #194c33, #bbb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desc {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+
+
+.img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(10px);
+  }
+}

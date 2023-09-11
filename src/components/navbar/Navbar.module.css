@@ -1,0 +1,33 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logoSpan {
+    background: #53c28b;
+    color: #111;
+    padding-inline: 2px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logout {
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background-color: #53c28b;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
